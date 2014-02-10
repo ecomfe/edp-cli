@@ -1,0 +1,36 @@
+[submodule "edp"]
+	path = edp
+	url = git@github.com:ecomfe/edp.git
+[submodule "edp-core"]
+	path = edp-core
+	url = git@github.com:ecomfe/edp-core.git
+[submodule "edp-add"]
+	path = edp-add
+	url = git@github.com:ecomfe/edp-add.git
+[submodule "edp-build"]
+	path = edp-build
+	url = git@github.com:ecomfe/edp-build.git
+[submodule "edp-codegen"]
+	path = edp-codegen
+	url = git@github.com:ecomfe/edp-codegen.git
+[submodule "edp-config"]
+	path = edp-config
+	url = git@github.com:ecomfe/edp-config.git
+[submodule "edp-htmlhint"]
+	path = edp-htmlhint
+	url = git@github.com:ecomfe/edp-htmlhint.git
+[submodule "edp-package"]
+	path = edp-package
+	url = git@github.com:ecomfe/edp-package.git
+[submodule "edp-project"]
+	path = edp-project
+	url = git@github.com:ecomfe/edp-project.git
+[submodule "edp-test"]
+	path = edp-test
+	url = git@github.com:ecomfe/edp-test.git
+[submodule "edp-watch"]
+	path = edp-watch
+	url = git@github.com:ecomfe/edp-watch.git
+[submodule "edp-webserver"]
+	path = edp-webserver
+	url = git@github.com:ecomfe/edp-webserver.git
