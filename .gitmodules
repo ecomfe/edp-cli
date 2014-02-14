@@ -34,3 +34,6 @@
 [submodule "edp-webserver"]
 	path = edp-webserver
 	url = git@github.com:ecomfe/edp-webserver.git
+[submodule "edp-doctor"]
+	path = edp-doctor
+	url = git@github.com:ecomfe/edp-doctor.git
