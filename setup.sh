@@ -2,6 +2,8 @@
 
 set -x
 
-git submodule foreach npm i
-git submodule foreach npm ln
-git submodule foreach npm run-script prepare
+git submodule foreach git checkout master
+cd edp && git checkout dev && cd -
+git submodule foreach cnpm i
+git submodule foreach cnpm ln
+git submodule foreach cnpm run-script prepare
