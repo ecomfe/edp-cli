@@ -1,18 +1,13 @@
 edp-cli
 =======
 
-| Package  | Build Status  | Dependencies Status | NPM Version |
-| ------------ |---------------| -----|-----|
-| edp      | [![Build Status](https://travis-ci.org/ecomfe/edp.png?branch=master)](https://travis-ci.org/ecomfe/edp) | [![Dependencies Status](https://david-dm.org/ecomfe/edp.png)](https://david-dm.org/ecomfe/edp) | [![NPM version](https://badge.fury.io/js/edp.png)](http://badge.fury.io/js/edp) |
-| edp-build     | [![Build Status](https://travis-ci.org/ecomfe/edp-build.png?branch=master)](https://travis-ci.org/ecomfe/edp-build)        |   [![Dependencies Status](https://david-dm.org/ecomfe/edp-build.png)](https://david-dm.org/ecomfe/edp-build) | [![NPM version](https://badge.fury.io/js/edp-build.png)](http://badge.fury.io/js/edp-build) |
-| edp-config | [![Build Status](https://travis-ci.org/ecomfe/edp-config.png?branch=master)](https://travis-ci.org/ecomfe/edp-config)        |    [![Dependencies Status](https://david-dm.org/ecomfe/edp-config.png)](https://david-dm.org/ecomfe/edp-config) | [![NPM version](https://badge.fury.io/js/edp-config.png)](http://badge.fury.io/js/edp-config) |
-| edp-doctor | [![Build Status](https://travis-ci.org/ecomfe/edp-doctor.png?branch=master)](https://travis-ci.org/ecomfe/edp-doctor) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-doctor.png)](https://david-dm.org/ecomfe/edp-doctor) | [![NPM version](https://badge.fury.io/js/edp-doctor.png)](http://badge.fury.io/js/edp-doctor) |
-| edp-package| [![Build Status](https://travis-ci.org/ecomfe/edp-package.png?branch=master)](https://travis-ci.org/ecomfe/edp-package) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-package.png)](https://david-dm.org/ecomfe/edp-package) | [![NPM version](https://badge.fury.io/js/edp-package.png)](http://badge.fury.io/js/edp-package) |
-| edp-test   | [![Build Status](https://travis-ci.org/ecomfe/edp-test.png?branch=master)](https://travis-ci.org/ecomfe/edp-test) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-test.png)](https://david-dm.org/ecomfe/edp-test) | [![NPM version](https://badge.fury.io/js/edp-test.png)](http://badge.fury.io/js/edp-test) |
-| edp-webserver | [![Build Status](https://travis-ci.org/ecomfe/edp-webserver.png?branch=master)](https://travis-ci.org/ecomfe/edp-webserver) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-webserver.png)](https://david-dm.org/ecomfe/edp-webserver) | [![NPM version](https://badge.fury.io/js/edp-webserver.png)](http://badge.fury.io/js/edp-webserver) |
-| edp-add | [![Build Status](https://travis-ci.org/ecomfe/edp-add.png?branch=master)](https://travis-ci.org/ecomfe/edp-add) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-add.png)](https://david-dm.org/ecomfe/edp-add) | [![NPM version](https://badge.fury.io/js/edp-add.png)](http://badge.fury.io/js/edp-add) |
-| edp-codegen | [![Build Status](https://travis-ci.org/ecomfe/edp-codegen.png?branch=master)](https://travis-ci.org/ecomfe/edp-codegen) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-codegen.png)](https://david-dm.org/ecomfe/edp-codegen) | [![NPM version](https://badge.fury.io/js/edp-codegen.png)](http://badge.fury.io/js/edp-codegen) |
-| edp-core | [![Build Status](https://travis-ci.org/ecomfe/edp-core.png?branch=master)](https://travis-ci.org/ecomfe/edp-core)  | [![Dependencies Status](https://david-dm.org/ecomfe/edp-core.png)](https://david-dm.org/ecomfe/edp-core) | [![NPM version](https://badge.fury.io/js/edp-core.png)](http://badge.fury.io/js/edp-core) |
-| edp-htmlhint |  [![Build Status](https://travis-ci.org/ecomfe/edp-htmlhint.png?branch=master)](https://travis-ci.org/ecomfe/edp-htmlhint) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-htmlhint.png)](https://david-dm.org/ecomfe/edp-htmlhint) | [![NPM version](https://badge.fury.io/js/edp-htmlhint.png)](http://badge.fury.io/js/edp-htmlhint) |
-| edp-project | [![Build Status](https://travis-ci.org/ecomfe/edp-project.png?branch=master)](https://travis-ci.org/ecomfe/edp-project) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-project.png)](https://david-dm.org/ecomfe/edp-project) | [![NPM version](https://badge.fury.io/js/edp-project.png)](http://badge.fury.io/js/edp-project) |
-| edp-watch | [![Build Status](https://travis-ci.org/ecomfe/edp-watch.png?branch=master)](https://travis-ci.org/ecomfe/edp-watch) | [![Dependencies Status](https://david-dm.org/ecomfe/edp-watch.png)](https://david-dm.org/ecomfe/edp-watch) | [![NPM version](https://badge.fury.io/js/edp-watch.png)](http://badge.fury.io/js/edp-watch) |
+1. [Package Status](https://github.com/ecomfe/edp-cli/wiki/Package-Status)
+2. [如何发布一个版本](#)
+
+----
+
+### 环境配置
+
+1. git checkout https://github.com/ecomfe/edp-cli.git
+2. sh -x setup.sh
+3. 检查一下`edp`是不是指向了最新的代码，例如：`greadlink -f $(which edp)` 或者 `readlink -f $(which edp)`
