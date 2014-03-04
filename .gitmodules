@@ -37,3 +37,9 @@
 [submodule "edp-doctor"]
 	path = edp-doctor
 	url = git@github.com:ecomfe/edp-doctor.git
+[submodule "edp-webhooks"]
+	path = edp-webhooks
+	url = git@github.com:ecomfe/edp-webhooks.git
+[submodule "api"]
+	path = api
+	url = git@github.com:ecomfe/api.git
