@@ -43,3 +43,6 @@
 [submodule "api"]
 	path = api
 	url = git@github.com:ecomfe/api.git
+[submodule "edp-bcs"]
+	path = edp-bcs
+	url = git@github.com:ecomfe/edp-bcs.git
