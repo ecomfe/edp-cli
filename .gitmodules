@@ -46,3 +46,6 @@
 [submodule "edp-bcs"]
 	path = edp-bcs
 	url = git@github.com:ecomfe/edp-bcs.git
+[submodule "edp-beautify"]
+	path = edp-beautify
+	url = git@github.com:ecomfe/edp-beautify.git
