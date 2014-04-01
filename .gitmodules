@@ -49,3 +49,15 @@
 [submodule "edp-beautify"]
 	path = edp-beautify
 	url = git@github.com:ecomfe/edp-beautify.git
+[submodule "edp-lint"]
+	path = edp-lint
+	url = git@github.com:ecomfe/edp-lint.git
+[submodule "edpx-seed"]
+	path = edpx-seed
+	url = git@github.com:ecomfe/edpx-seed.git
+[submodule "edp-minify"]
+	path = edp-minify
+	url = git@github.com:ecomfe/edp-minify.git
+[submodule "edpx-ub-ria"]
+	path = edpx-ub-ria
+	url = git@github.com:ecomfe/edpx-ub-ria.git
