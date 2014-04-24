@@ -43,9 +43,6 @@
 [submodule "api"]
 	path = api
 	url = git@github.com:ecomfe/api.git
-[submodule "edp-bcs"]
-	path = edp-bcs
-	url = git@github.com:ecomfe/edp-bcs.git
 [submodule "edp-beautify"]
 	path = edp-beautify
 	url = git@github.com:ecomfe/edp-beautify.git
@@ -67,3 +64,6 @@
 [submodule "edpx-bat-ria"]
 	path = edpx-bat-ria
 	url = git@github.com:ecomfe/edpx-bat-ria.git
+[submodule "edpx-bcs"]
+	path = edpx-bcs
+	url = git@github.com:ecomfe/edp-bcs.git
