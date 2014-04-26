@@ -67,3 +67,6 @@
 [submodule "edpx-bcs"]
 	path = edpx-bcs
 	url = git@github.com:ecomfe/edp-bcs.git
+[submodule "edpx-add"]
+	path = edpx-add
+	url = git@github.com:ecomfe/edp-add.git
